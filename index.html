@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MOKEPON</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <section class="titulo">
+        <h1>💧🌿🔥 MOKEPON 🔥🌿💧</h1>
+    </section>
+
+    <main>
+        <div class="elegir_mokepon">
+            <h2>Elije una mascota:</h2>
+            <div class="inputs_mokepones">
+                <div class="hipodoge">
+                    <label for="input_hipodoge">Hipodoge</label>
+                    <img src="./assets/mokepons_mokepon_hipodoge_attack.png" alt="">
+                    <input type="radio" name="mascota" value="Hipodoge" class="input_hipodoge" id="input_hipodoge">
+                </div>
+                <div class="capipepo">
+                    <label for="input_capipepo">Capipepo</label>
+                    <img src="./assets/mokepons_mokepon_capipepo_attack.png" alt="">
+                    <input type="radio" name="mascota" value="capipepo" class="input_capipepo" id="input_capipepo">
+                </div>
+                <div class="ratigueya">
+                    <label for="input_ratigueya">Ratigueya</label>
+                    <img src="./assets/mokepons_mokepon_ratigueya_attack.png" alt="">
+                    <input type="radio" name="mascota" value="Ratigueya" class="input_ratigueya" id="input_ratigueya">
+                </div>
+            </div>
+            <button class="button_seleccionar_mascota" id="button_seleccionar_mascota">Seleccionar mascota</button>
+        </div>
+        <div class="elegir_ataque">
+            <h2>Elije tu ataque:</h2>
+            <div class="buttos_ataque">
+                <button id="button_ataque_fuego">Fuego🔥</button>
+                <button id="button_ataque_planta">Planta🌱</button>
+                <button id="button_ataque_agua">Agua💧</button>
+            </div>
+        </div>
+        <div class="vidas_mokepones">
+            <div class="vidas_mascosta_jugador">
+                <h3>Vidas de tu mascota</h3>
+                <span id="span_vidas_mascota_jugador"></span>
+            </div>
+            <div class="vidas_mascosta_enemigo">
+                <h3>Vidas de mascota enemiga</h3>
+                <span id="span_vidas_mascota_enemigo"></span>
+            </div>
+        </div>
+        <div class="COMBATE">
+            <h2>Arena de combates</h2>
+            <div class="div_span_mascota">
+                <span id="span_mascota_jugador"></span>
+                <span id="span_mascota_enemigo"></span>
+            </div>
+            <div class="ataques">
+                <span id="span_ataque_jugador"></span>
+                <span id="span_ganador"></span>
+                <span id="span_ataque_enemigo"></span>
+            </div>
+        </div>
+        
+        
+    </main>
+    
+    <script src="./script.js"></script>
+</body>
+</html>
